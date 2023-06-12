@@ -15,6 +15,13 @@ N’en prenez pas compte, cliquez sur Continuer :
 10) Vous pouvez soutenir le projet si vous le souhaiter, sinon cliquez sur Continuer
 11) Il reste plus qu’à vous connecter avec l’identifiant par défaut glpi et le mot de passe glpi et changer les mots de passes des comptes sensibles
 
+# Installer et activer le plugin Fusion Inventory
+
+1) Dans les menus de gauche aller dans Configuration
+2) Séléctionner Plugins
+3) Dans actions cliquer sur le dossier pour l'installer
+4) Cliquer sur le pop-up qui apparait pour l'activer
+
 # Supprimer fichier install.php de glpi
 
 rm /var/www/html/glpi/install/install.php
