@@ -1,5 +1,6 @@
  ## Install
  
+ 
  \\ Après le script aller sur votre navigateur:
 
 # Installer GLPI (http://192.168.X.X/glpi)
