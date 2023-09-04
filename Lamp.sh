@@ -93,7 +93,7 @@ chown -R www-data:www-data /var/www/html/glpi
 chmod -R 775 /var/www/html/glpi
 # Télécharger plugin FusionInventory
 wget https://github.com/fusioninventory/fusioninventory-for-glpi/releases/download/glpi10.0.6%2B1.1/fusioninventory-10.0.6+1.1.tar.bz2
-tar xvjf fusioninventory-10.0.6+1.1.tgz -C /var/www/html/glpi/plugins
+tar xvjf fusioninventory-10.0.6+1.1.tar.bz2 -C /var/www/html/glpi/plugins
 chown -R www-data /var/www/html/glpi/plugins
 # Supprimer fichier install.php de glpi (le faire manuellement après l'installation graphique de GLPI)
 # rm /var/www/html/glpi/install/install.php
